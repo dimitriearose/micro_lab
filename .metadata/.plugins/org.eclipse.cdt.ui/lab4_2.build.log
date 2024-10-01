@@ -141,11 +141,6 @@ arm-none-eabi-size "lab4_2.axf"; # arm-none-eabi-objcopy -v -O binary "lab4_2.ax
    text	   data	    bss	    dec	    hex	filename
   12012	      8	   8464	  20484	   5004	lab4_2.axf
  
-08:50:38 **** Incremental Build of configuration Debug for project postlab_3 ****
-make -r -j16 all 
-make[1]: Nothing to be done for 'main-build'.
-Performing post-build steps
-arm-none-eabi-size "postlab_3.axf"; # arm-none-eabi-objcopy -v -O binary "postlab_3.axf" "postlab_3.bin" ; # checksum -p LPC55S69 -d "postlab_3.bin";
-   text	   data	    bss	    dec	    hex	filename
-  14188	      8	   8500	  22696	   58a8	postlab_3.axf
- 
+
+08:50:34 Build Finished. 0 errors, 0 warnings. (took 2s.277ms)
+
