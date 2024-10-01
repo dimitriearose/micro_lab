@@ -1,0 +1,4 @@
+C:\Users\dimit\Documents\MCUXpressoIDE_11.10.0_3148\workspace\LPC55S69_Projectomg\device/LPC55S69_cm33_core0.h:31241:24:Chip_GetVersion	16	static
+C:\Users\dimit\Documents\MCUXpressoIDE_11.10.0_3148\workspace\LPC55S69_Projectomg\drivers/fsl_clock.h:983:20:CLOCK_EnableClock	24	static
+../board/pin_mux.c:32:6:BOARD_InitBootPins	8	static
+../board/pin_mux.c:55:6:BOARD_InitPins	8	static
