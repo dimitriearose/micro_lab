@@ -2950,3 +2950,18 @@ java.lang.Exception: Stopping Thread 1 failed: T06thread:1;
 
 !ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-10-01 08:39:35.633
 !MESSAGE RedlinkServer telnet session connected on port 3025->55786 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-01 08:50:23.415
+!MESSAGE Indexed 'lab4_2' (25 sources, 47 headers) in 1.34 sec: 7,022 declarations; 20,023 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.crt.log 1 0 2024-10-01 08:50:39.457
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-10-01 08:50:40.466
+!MESSAGE RedlinkServer telnet session connected on port 3025->56148 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-10-01 08:50:41.544
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.6.133/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=56149, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/dimit/Documents/MCUXpressoIDE_11.10.0_3148/workspace/postlab_3/Debug, --flash-dir, C:/nxp/LinkServer_1.6.133/binaries/Flash, --flash-dir, C:/Users/dimit/Documents/MCUXpressoIDE_11.10.0_3148/workspace/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-10-01 08:50:44.239
+!MESSAGE Telnet session connected on port 3330->56164 @ 127.0.0.1
